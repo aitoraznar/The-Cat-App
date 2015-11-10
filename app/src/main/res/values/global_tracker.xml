@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+    <!-- Replace placeholder ID with your tracking ID -->
+    <string name="ga_trackingId">UA-XXXXXXXX-X</string>
+
+    <!-- The application name. Defaults to name specified for the application label -->
+    <string name="ga_appName">The Cat App</string>
+
+    <!-- The application version. Defaults to android:versionName specified in the AndroidManifest.xml -->
+    <string name="ga_appVersion">1.0</string>
+
+    <!-- The dispatching period in seconds when Google Play services is
+         unavailable. The default period is 1800 seconds or 30 minutes -->
+    <integer name="ga_dispatchPeriod">1800</integer>
+
+    <!-- Enable dry run mode. Default is false -->
+    <bool name="ga_dryRun">false</bool>
+
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+
+
+
+    <!-- Google AdMob -->
+    <string name="test_banner_ad_unit_id">ca-app-pub-XXXXXXXX/YYYYYYY</string>
+    <string name="fullscreen_banner_ad_unit_id">ca-app-pub-XXXXXXXX/YYYYYYY</string>
+
+    <integer name="catForFullScreenBanner">6</integer>
+
+</resources>

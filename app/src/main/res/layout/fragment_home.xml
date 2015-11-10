@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aitoraznar.thecatapp.views.HomeFragment">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/mCatImage"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/mSourceText"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        />
+
+    <Button
+        android:id="@+id/mLikeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I love it"
+
+        android:drawableTop="@drawable/love"
+        android:background="@android:color/transparent"
+
+        android:layout_above="@+id/mSourceText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/mHateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I hate It"
+
+        android:drawableTop="@drawable/hate"
+        android:background="@android:color/transparent"
+
+        android:layout_above="@+id/mSourceText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:id="@+id/mFavouriteButton"
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:background="@drawable/star_layout"
+
+        android:textOn=""
+        android:textOff=""
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/mShareButton"
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:background="@drawable/share"
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_centerVertical="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
