@@ -1,0 +1,17 @@
+# POLÍTICA DE PRIVACIDAD
+
+No recogemos ni almacenamos ninguna información personal sobre ti cuando tu estás usando la aplicación. 
+
+Usamos Google Admob para mostrar los anuncios. Google podría recoger ciertos datos del dispositivo cuando se produce un error durante la ejecución de la aplicación.
+
+Usamos  Google Analytics para recoger analíticas. Google puede recoger cierta información, como la dirección IP o el ID del dispositivo, para realizar a cabo estas tareas siempre tratando la información de manera impersonal.
+
+
+# PRIVACY POLICY
+
+We do not collect or store any personal information about you when you are using this app.
+
+We are using Google Admob for the advertisement. Google may collect certain device information for unexpected error when using the application.
+
+We may use Google Analytics and other analytics tool to analyze and improve the use of the Services. Google Analytics will access anonymous data (such as your IP address or device ID) to help us understand how the Services are being used and how we can make improvement to the app.
+
